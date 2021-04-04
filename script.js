@@ -45,7 +45,7 @@ const textEl = document.getElementById("my-info")
 
 let idx = 1
 
-const text = 'Ex-(Electrical and Electronic Engineer) & A Wannabe FrontEnd Web Developer! I LOVE PROGRAMMING!!!!!!!'
+const text = document.querySelector("#my-info").innerText
 
 writeText()
 
