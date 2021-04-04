@@ -292,18 +292,19 @@ padding-top: 30px;
 .post-wrapper{
     display:grid;
     grid-template-columns: repeat(auto-fit, 320px);
-    gap: 70px;
     justify-content: center;
-    
 }
+
 .post-wrapper div {
-    margin-bottom: 10px;
+   display: grid;
+   margin-bottom: 10px;
+  align-items:stretch;
 }
+ 
 
 .thumbnail{
     display: block;
-    width: 100%;
-    height: auto;
+     width: 100%;
     object-fit: cover;
 }
 
@@ -312,13 +313,16 @@ padding-top: 30px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    height: 400px;
+    margin: 5px;
+     
+     
 }
 
 .post-preview{
-    
     background-color: #fff;
     padding: 15px;
+    height: 90%;
+  
 }
 
 .post-title{
@@ -331,6 +335,8 @@ padding-top: 30px;
     font-size: 14px;
 
 }
+
+
 
 
 
