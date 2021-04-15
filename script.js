@@ -3,7 +3,7 @@
 let theme = localStorage.getItem('theme')
 
 if(theme == null){
-	setTheme('purple')
+	setTheme('light')
 }else{
 	setTheme(theme)
 }
